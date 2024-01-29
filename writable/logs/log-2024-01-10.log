@@ -1,0 +1,170 @@
+INFO - 2024-01-10 07:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-10 07:57:25 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Login.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-10 07:57:36 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Login.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-10 07:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-10 08:02:53 --> Class "App\Models\ModelKas" not found
+in APPPATH\Controllers\kas.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+ERROR - 2024-01-10 08:03:15 --> mysqli_sql_exception: Table 'db-masjid.tbl_kas_masjid' doesn't exist in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Models\ModelKas.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Controllers\kas.php(12): App\Models\ModelKas->getKas()
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(919): App\Controllers\Kas->index()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-10 08:03:15 --> Table 'db-masjid.tbl_kas_masjid' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_masjid`', [], false)
+ 2 APPPATH\Models\ModelKas.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\kas.php(12): App\Models\ModelKas->getKas()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+ERROR - 2024-01-10 08:03:19 --> mysqli_sql_exception: Table 'db-masjid.tbl_kas_masjid' doesn't exist in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Models\ModelKas.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Controllers\kas.php(12): App\Models\ModelKas->getKas()
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(919): App\Controllers\Kas->index()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-10 08:03:19 --> Table 'db-masjid.tbl_kas_masjid' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_masjid`', [], false)
+ 2 APPPATH\Models\ModelKas.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\kas.php(12): App\Models\ModelKas->getKas()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+ERROR - 2024-01-10 08:03:36 --> mysqli_sql_exception: Table 'db-masjid.tbl_kas_masjid' doesn't exist in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Models\ModelKas.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Controllers\kas.php(12): App\Models\ModelKas->getKas()
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(919): App\Controllers\Kas->index()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-10 08:03:36 --> Table 'db-masjid.tbl_kas_masjid' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_masjid`', [], false)
+ 2 APPPATH\Models\ModelKas.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\kas.php(12): App\Models\ModelKas->getKas()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2024-01-10 08:03:37 --> Undefined array key "id_kas_masjid"
+in APPPATH\Views\kas\v_kas.php on line 55.
+ 1 APPPATH\Views\kas\v_kas.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kas_masjid"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kas\\v_kas.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kas\\v_kas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kas/v_kas', [], true)
+ 5 APPPATH\Controllers\kas.php(13): view('kas/v_kas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2024-01-10 08:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

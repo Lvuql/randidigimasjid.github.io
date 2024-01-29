@@ -1,0 +1,366 @@
+INFO - 2023-12-20 06:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-20 06:47:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db-masjid', 3306, '', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Models\ModelUser.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Controllers\Login.php(21): App\Models\ModelUser->cek_login('randi')
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Models\ModelUser.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\app\Controllers\Login.php(21): App\Models\ModelUser->cek_login('randi')
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\LatihanCI_Masjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#10 {main}
+CRITICAL - 2023-12-20 06:47:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `nama_user` = :nama_user:', [...], false)
+ 3 APPPATH\Models\ModelUser.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(21): App\Models\ModelUser->cek_login('randi')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 06:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 06:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 07:08:37 --> Undefined variable $pengurus
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 47.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengurus', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(11): view('kasmesjid/vkasmesjid')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:12:50 --> Undefined variable $pengurus
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 47.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengurus', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:12:51 --> Undefined variable $pengurus
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 47.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengurus', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 07:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 07:13:00 --> Undefined variable $pengurus
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 47.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengurus', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:14:06 --> Undefined variable $kasmesjid
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 47.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmesjid', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:14:08 --> Undefined variable $kasmesjid
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 47.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmesjid', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 07:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 07:41:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasmesjid.php(27): CodeIgniter\Model->__call('insertData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 07:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 07:43:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasmesjid.php(28): CodeIgniter\Model->__call('insertData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 07:46:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasmesjid.php(44): CodeIgniter\Model->__call('insertData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:46:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasmesjid.php(44): CodeIgniter\Model->__call('insertData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:47:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasmesjid.php(44): CodeIgniter\Model->__call('insertData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:47:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasmesjid.php(44): CodeIgniter\Model->__call('insertData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 07:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 07:48:49 --> Undefined array key "nama_pengurus"
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 62.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengurus"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:50:30 --> Undefined array key "nama_pengurus"
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 62.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengurus"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:50:33 --> Undefined array key "nama_pengurus"
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 62.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengurus"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:50:35 --> Undefined array key "nama_pengurus"
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 62.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengurus"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:50:55 --> Undefined array key "id_pengurus"
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 64.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pengurus"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 07:51:03 --> Undefined array key "nama_pengurus"
+in APPPATH\Views\kasmesjid\vkasmesjid.php on line 62.
+ 1 APPPATH\Views\kasmesjid\vkasmesjid.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengurus"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\app\\Views\\kasmesjid\\vkasmesjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmesjid', [], true)
+ 5 APPPATH\Controllers\Kasmesjid.php(14): view('kasmesjid/vkasmesjid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmesjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmesjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 07:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 07:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 08:00:23 --> Class "App\Models\Modelkasmasuk" not found
+in APPPATH\Controllers\Kasmasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 08:00:49 --> Invalid file: "kasmasuk/vkasmasuk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasmasuk/vkasmasuk.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/vkasmasuk', [], true)
+ 3 APPPATH\Controllers\Kasmasuk.php(14): view('kasmasuk/vkasmasuk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 08:01:11 --> Invalid file: "kasmasuk/vkasmasuk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasmasuk/vkasmasuk.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/vkasmasuk', [], true)
+ 3 APPPATH\Controllers\Kasmasuk.php(14): view('kasmasuk/vkasmasuk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+CRITICAL - 2023-12-20 08:01:32 --> Invalid file: "kasmasuk/vkasmasuk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasmasuk/vkasmasuk.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/vkasmasuk', [], true)
+ 3 APPPATH\Controllers\Kasmasuk.php(14): view('kasmasuk/vkasmasuk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\LatihanCI_Masjid\\public\\index.php')
+INFO - 2023-12-20 08:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 08:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 08:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 08:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 08:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 08:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 08:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

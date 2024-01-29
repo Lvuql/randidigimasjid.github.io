@@ -1,0 +1,751 @@
+INFO - 2024-01-16 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 01:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 01:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 01:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 01:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 01:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 04:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 04:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 04:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 04:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 04:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 04:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 04:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 05:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 09:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 09:18:13 --> Undefined variable $kasmasuk
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 49.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasuk', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 09:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:37:38 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 266.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 266)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:38:31 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 266.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 266)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:39:52 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 266.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 266)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:40:38 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 266.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 266)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+CRITICAL - 2024-01-16 11:40:40 --> Undefined array key "idkasmasukmasjid"
+in APPPATH\Views\kasmesjid\vkasmasuk.php on line 60.
+ 1 APPPATH\Views\kasmesjid\vkasmasuk.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkasmasukmasjid"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kasmesjid\\vkasmasuk.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kasmesjid\\vkasmasuk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmasuk', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(16): view('kasmesjid/vkasmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+CRITICAL - 2024-01-16 11:40:42 --> Undefined array key "idkasmasukmasjid"
+in APPPATH\Views\kasmesjid\vkasmasuk.php on line 60.
+ 1 APPPATH\Views\kasmesjid\vkasmasuk.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkasmasukmasjid"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kasmesjid\\vkasmasuk.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kasmesjid\\vkasmasuk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmasuk', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(16): view('kasmesjid/vkasmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:41:33 --> Undefined property: stdClass::$idkasmasuk
+in APPPATH\Views\kasmesjid\vkasmasuk.php on line 270.
+ 1 APPPATH\Views\kasmesjid\vkasmasuk.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idkasmasuk', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kasmesjid\\vkasmasuk.php', 270)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kasmesjid\\vkasmasuk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmesjid/vkasmasuk', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(16): view('kasmesjid/vkasmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:48:30 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 266.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 266)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:48:55 --> Undefined variable $kasmasuk
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 49.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasuk', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:49:05 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 266.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 266)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:50:05 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 264.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 11:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:56:52 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 264.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(14): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+ERROR - 2024-01-16 11:59:21 --> mysqli_sql_exception: Unknown column 'jenis_agenda' in 'where clause' in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Models\Modelkaskeluar.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Controllers\Kaskeluar.php(14): App\Models\Modelkaskeluar->getDonaturanakyatim()
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-16 11:59:21 --> Unknown column 'jenis_agenda' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_keluar`
+WHERE `jenis_agenda` = "Anak Yatim"', [], false)
+ 2 APPPATH\Models\Modelkaskeluar.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Kaskeluar.php(14): App\Models\Modelkaskeluar->getDonaturanakyatim()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 11:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 11:59:44 --> Undefined variable $data_donatur
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 264.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(15): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 12:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 12:00:01 --> Undefined variable $data_kkanakyatim
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 264.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kkanakyatim', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(15): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 12:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 12:00:02 --> Undefined variable $data_kkanakyatim
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 264.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kkanakyatim', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(15): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 12:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 12:00:15 --> Undefined variable $data_kkanakyatim
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 264.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kkanakyatim', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(15): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 12:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 12:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 19:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 20:16:58 --> Undefined variable $data
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 105.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(15): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 20:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-16 20:24:45 --> mysqli_sql_exception: Table 'digitalisasimasjid.tbl_kas_mesjid' doesn't exist in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Models\Modelkaskeluar.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Controllers\Kaskeluar.php(30): App\Models\Modelkaskeluar->insertData(Array)
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(919): App\Controllers\Kaskeluar->save()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-16 20:24:45 --> Table 'digitalisasimasjid.tbl_kas_mesjid' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_mesjid` (`tanggal`, `ket`, `kas_masuk`, `kas_keluar`, `jenis_kas`, `status`) VALUES (:tanggal:, :ket:, :kas_masuk:, :kas_keluar:, :jenis_kas:, :status:)', [...], false)
+ 2 APPPATH\Models\Modelkaskeluar.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kaskeluar.php(30): App\Models\Modelkaskeluar->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+ERROR - 2024-01-16 20:25:21 --> mysqli_sql_exception: Unknown column 'kas_masuk' in 'field list' in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Models\Modelkaskeluar.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Controllers\Kaskeluar.php(30): App\Models\Modelkaskeluar->insertData(Array)
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(919): App\Controllers\Kaskeluar->save()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-16 20:25:21 --> Unknown column 'kas_masuk' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_keluar` (`tanggal`, `ket`, `kas_masuk`, `kas_keluar`, `jenis_kas`, `status`) VALUES (:tanggal:, :ket:, :kas_masuk:, :kas_keluar:, :jenis_kas:, :status:)', [...], false)
+ 2 APPPATH\Models\Modelkaskeluar.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kaskeluar.php(30): App\Models\Modelkaskeluar->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+ERROR - 2024-01-16 20:30:11 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Models\Modelkaskeluar.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Controllers\Kaskeluar.php(29): App\Models\Modelkaskeluar->insertData(Array)
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(919): App\Controllers\Kaskeluar->save()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-16 20:30:11 --> Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_keluar` (`tanggal`, `ket`, `kas_keluar`, `jenis_kas`, `status`) VALUES (:tanggal:, :ket:, :kas_keluar:, :jenis_kas:, :status:)', [...], false)
+ 2 APPPATH\Models\Modelkaskeluar.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kaskeluar.php(29): App\Models\Modelkaskeluar->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+CRITICAL - 2024-01-16 20:32:41 --> Undefined array key "nama_agenda"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 56.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_agenda"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 20:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 20:32:46 --> Undefined array key "nama_agenda"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 56.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_agenda"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+ERROR - 2024-01-16 20:34:09 --> mysqli_sql_exception: Unknown column 'id_agenda' in 'on clause' in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Models\Modelkaskeluar.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Controllers\Kaskeluar.php(14): App\Models\Modelkaskeluar->getKaskeluaranakyatim()
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-16 20:34:09 --> Unknown column 'id_agenda' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_keluar`
+JOIN `tbl_donatur` ON `id_agendamasjid`=`id_agenda`
+WHERE `jenis_kas` = "Anak Yatim"', [], false)
+ 2 APPPATH\Models\Modelkaskeluar.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Kaskeluar.php(14): App\Models\Modelkaskeluar->getKaskeluaranakyatim()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 20:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 20:34:35 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 58.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+CRITICAL - 2024-01-16 20:35:20 --> Undefined array key "idagenda"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 58.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idagenda"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+CRITICAL - 2024-01-16 20:35:22 --> Undefined array key "idagenda"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 58.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idagenda"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+CRITICAL - 2024-01-16 20:35:30 --> Undefined array key "idagenda"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 58.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idagenda"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+CRITICAL - 2024-01-16 20:35:31 --> Undefined array key "nama"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 58.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 20:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 20:42:26 --> Undefined array key "id_kas_keluar"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 58.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kas_keluar"', 'D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar.php(17): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 20:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-16 20:52:39 --> mysqli_sql_exception: Unknown column 'idkasmasukmasjid' in 'field list' in D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Models\Modelkasmasuk.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\app\Controllers\Kasmasuk.php(31): App\Models\Modelkasmasuk->insertData(Array)
+#6 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(919): App\Controllers\Kasmasuk->save()
+#7 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+#8 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\STMIK-Jayanusa\SEMESTER 5\Pemrograman WEB 2\Project\DigitalisasiMasjid\system\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanu...')
+#11 {main}
+CRITICAL - 2024-01-16 20:52:39 --> Unknown column 'idkasmasukmasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_masjid` (`tanggal`, `ket`, `kas_masuk`, `jenis_kas`, `idkasmasukmasjid`) VALUES (:tanggal:, :ket:, :kas_masuk:, :jenis_kas:, :idkasmasukmasjid:)', [...], false)
+ 2 APPPATH\Models\Modelkasmasuk.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kasmasuk.php(31): App\Models\Modelkasmasuk->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 20:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 20:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-16 21:35:16 --> Invalid file: "kaskeluar/vkkmesjid.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kaskeluar/vkkmesjid.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkmesjid', [], true)
+ 3 APPPATH\Controllers\Kaskeluar.php(151): view('kaskeluar/vkkmesjid', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar->mesjid()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\STMIK-Jayanusa\\SEMESTER 5\\Pemrograman WEB 2\\Project\\DigitalisasiMasjid\\public\\index.php')
+INFO - 2024-01-16 21:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-16 21:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
